@@ -1,0 +1,86 @@
+.banner {
+    background-color: #ffffff;
+    min-width: 300px;
+    flex: 0 0 auto;
+    padding: 24px 28px;
+    border-left: 6px solid #ff6d00;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+    cursor: default;
+  }
+  
+  .banner:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+  }
+  
+  .banner h3 {
+    margin: 0 0 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1f2937; /* Slate 800 */
+  }
+  
+  .banner p {
+    margin: 0;
+    font-size: 1rem;
+    color: #4b5563; /* Slate 600 */
+    line-height: 1.6;
+  }
+  
+
+ /* Carousel Outer Container */
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+  }
+  
+  /* Carousel Scrolling Row */
+  .carousel-track {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+  }
+  
+  .carousel-track::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for cleaner look */
+  }
+  
+  /* Individual Banner Card */
+  .banner {
+    background-color: #fff;
+    min-width: 300px;
+    flex: 0 0 auto;
+    padding: 24px 28px;
+    border-left: 6px solid #ff6d00;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+  }
+  
+  .banner:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+  }
+  
+  .banner h3 {
+    margin: 0 0 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .banner p {
+    margin: 0;
+    font-size: 1rem;
+    color: #4b5563;
+    line-height: 1.6;
+  }
+  
+  

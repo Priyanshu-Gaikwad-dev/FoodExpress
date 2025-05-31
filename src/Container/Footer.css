@@ -1,0 +1,296 @@
+/* Premium Footer Styles */
+.premium-footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding: 60px 0 0 ;
+    position: relative;
+    margin-top: 100px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  /* Brand Section */
+  .footer-brand-section {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo {
+    height: 40px;
+   margin-left: -65px;
+  }
+  
+  .brand-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-left: -50px;
+  }
+  
+  .tagline {
+    font-size: 16px;
+    color: #a0a0a0;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .contact-info {
+    margin-bottom: 30px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    color: #e0e0e0;
+    font-size: 14px;
+  }
+  
+  .contact-icon {
+    margin-right: 12px;
+    color: #fc8019;
+    font-size: 16px;
+    margin-top: 2px;
+  }
+  
+  /* App Links */
+  .app-links h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .app-badges {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .app-badge {
+    display: inline-block;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .app-badge:hover {
+    transform: translateY(-3px);
+  }
+  
+  .app-badge img {
+    height: 100%;
+    width: auto;
+  }
+  
+  /* Footer Links Grid */
+  .footer-links-grid {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+  }
+  
+  .footer-column {
+    margin-bottom: 20px;
+  }
+  
+  .column-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #ffffff;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .column-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #fc8019;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 12px;
+  }
+  
+  .footer-link {
+    color: #a0a0a0;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease, padding-left 0.3s ease;
+    display: inline-block;
+  }
+  
+  .footer-link:hover {
+    color: #fc8019;
+    padding-left: 5px;
+  }
+  
+  .city-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .city-list li {
+    color: #a0a0a0;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .city-list li:hover {
+    color: #fc8019;
+    cursor: pointer;
+  }
+  
+  /* Footer Bottom Bar */
+  .footer-bottom-bar {
+    background-color: #121212;
+    padding: 25px 0;
+    margin-top: 50px;
+  }
+  
+  .footer-bottom-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .copyright {
+    font-size: 13px;
+    color: #707070;
+    margin: 0;
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .social-media h5 {
+    font-size: 14px;
+    color: #a0a0a0;
+    margin: 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    color: #a0a0a0;
+    font-size: 18px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #fc8019;
+    transform: translateY(-3px);
+  }
+  
+  .payment-methods {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .payment-methods h5 {
+    font-size: 14px;
+    color: #a0a0a0;
+    margin: 0;
+  }
+  
+  .payment-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .payment-icon {
+    width: 30px;
+    height: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 3px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Payment Icons - You would replace these with actual icons */
+  .payment-icon.visa {
+    background-image: url('path-to-visa-icon');
+  }
+  .payment-icon.mastercard {
+    background-image: url('path-to-mastercard-icon');
+  }
+  .payment-icon.amex {
+    background-image: url('path-to-amex-icon');
+  }
+  .payment-icon.paypal {
+    background-image: url('path-to-paypal-icon');
+  }
+  .payment-icon.upi {
+    background-image: url('path-to-upi-icon');
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .footer-links-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-bottom-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+    }
+    
+    .social-media, .payment-methods {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-links-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .city-list {
+      grid-template-columns: 1fr;
+    }
+  }

@@ -1,0 +1,48 @@
+
+
+body {
+  font-family: Papyrus, fantasy;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  width: 1520px;
+  color: #333;
+}
+
+#imguser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 600px;
+  margin: 20px auto;
+ 
+}
+
+#user {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#user h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+#user h2 {
+  font-size: 18px;
+  color: #666;
+}
+
+#imguser img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+  
+  margin: 10px 30px;
+  border: 2px solid #333;
+}

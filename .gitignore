@@ -1,0 +1,66 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# new-app/
+# src/
+# Data.js
+
+# package-lock.json
+# package.json
+
+# Ignore a file
+example.txt
+
+# Ignore a directory
+node_modules/
+
+# Ignore all files with a certain extension
+*.log
+
+# Ignore a specific directory
+node_modules/
+
+# Ignore all directories with a certain name
+**/node_modules/
+
+# Ignore a specific directory
+node_modules/
+
+# Ignore all directories with a certain name
+**/node_modules/
+
+# Ignore all files with a certain extension
+*.log
+
+# Ignore all files with a certain prefix
+*.tmp
+
+# Ignore all files with a certain suffix
+*_backup
+
+# Ignore all files with a certain extension in all subdirectories
+**/*.log
+
+# Ignore all files except for example.txt
+!example.txt
