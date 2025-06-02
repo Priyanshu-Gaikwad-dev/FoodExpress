@@ -10,7 +10,7 @@ import Contact from "./Links/Contact.jsx";
 import LoginComponent from "./Links/LoginComponent.jsx";
 import Menu from "./Container/Menu.jsx";
 import Shimmer from "./Container/Shimmer.jsx";
-import { UserProvider } from "./Links/userContext.jsx";
+import { UserProvider } from "./Links/userContext";
 import Signincomponent from "./Links/SigninComponent.jsx";
 import appStore from "./Links/AppStore.jsx";
 import Cart from "./Container/Cart.jsx";
